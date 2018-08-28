@@ -7,11 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdo
 x-kinRank: "7"
 x-alexaRank: "5876"
 tags: Days
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/days/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Summary API - Get Response Time Averages For Each Hour Of The Day
+  x-api-slug: apiversionsummary-hoursofdaycheckid-get
+  description: Returns the average response time for each hour of the day (0-23) for
+    a specific check over a selected time period. I.e. it shows you what an average
+    day looks like during that time period.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/days/master/_listings/pingdom/apiversionsummary-hoursofdaycheckid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/days/master/_listings/pingdom/apiversionsummary-hoursofdaycheckid-get-openapi.md
 - name: Summary API - Get Response Time Averages For Each Hour Of The Day
   x-api-slug: apiversionsummary-hoursofdaycheckid-get
   description: Returns the average response time for each hour of the day (0-23) for
